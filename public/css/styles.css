@@ -181,3 +181,26 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+@media screen and (max-width: 800px) {
+    .chat__sidebar {
+        display: none;
+    }
+
+    .chat__main {
+        min-height: 100vh;
+    }
+    
+    .chat__messages {
+        padding: 10px 10px 0 10px;
+    }
+
+    .compose {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    #sharelocation {
+        margin-top: 10px;
+    }
+}
